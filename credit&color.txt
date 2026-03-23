@@ -1,0 +1,25 @@
+blueandyellow - Nathan Broadbent (Unsplash)
+abstractOrganicVertical - The New York Public Library (Unsplash)
+cracked - Kristaps Ungurs (Unsplash)
+leaves - Museum of New Zealand Te Papa Tongarewa (Unsplash)
+flower - The Walters Art Museum (Unsplash)
+squareForest - National Gallery of Art (Unsplash)
+roundedSunnyHill - National Gallery of Art (Unsplash)
+mediumAbstract - Fons Heijnsbroek (Unsplash)
+pawelBlue - Pawel Czerwinski (Unsplash)
+pawelPink - Pawel Czerwinski (Unsplash)
+multicoloredAbstract - Alexandru Ant (Unsplash)
+pplPainting - Rahul Jain (Unsplash)
+clayCanvas - Vitaly Gariev (Unsplash)
+woodCarving - Paulina Herpel (Unsplash)
+acrylicPour - Valerie Titova (Unsplash)
+
+main green: #D3E5D8
+light green: #F9FFE6
+darker green: #AAC3C0
+darkest green: #789491
+pink: #F8E7EC
+darker pink: #E3B3C1
+blue: #8BC1E7
+dark blue: #3A7199
+yellow: #FFFCA4

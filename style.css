@@ -1,0 +1,141 @@
+/* ----------- fonts ----------- */
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.raleway-dots {
+  font-family: "Raleway Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.thasadith-regular {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.thasadith-bold {
+  font-family: "Thasadith", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.square-peg-regular {
+  font-family: "Square Peg", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* ----------- text ----------- */
+h4 {
+  font-family: "square peg";
+  font-size: 38px;
+}
+p#title {
+  font-family: "Raleway Dots";
+  font-size: 100px;
+  margin: 10px 0px 0px 0px;
+}
+p {
+  font-family: "Raleway";
+  font-size: 28px;
+  margin: 0px 0px 20px 0px;
+}
+p.cursive {
+  font-family: "Square Peg";
+  font-size: 38px;
+  color: #3A7199;
+}
+li {
+  font-family: "Thasadith";
+  font-size: 28px;
+}
+/* ----------- sectioning ----------- */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #D3E5D8;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  border: 2px solid;
+  border-color: #AAC3C0;
+  height: 110px;
+}
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15%;
+}
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F9FFE6;
+  border: none;
+  border-radius: 30px;
+  font-family: "Raleway";
+  font-size: 20px;
+  height: 40px;
+  width: 230px;
+  color: #789491;
+  /*margin: 10px 40px;*/
+}
+button:hover {
+  box-shadow: 1px 2px 3px #222d2c;
+  cursor: pointer;
+  font-weight: 700;
+}
+button.nav-btn2 {
+  width: 170px;
+  background-color: #789491;
+  color: #F9FFE6;
+}
+section {
+  margin: 0px 150px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+.title {
+  margin: 30px;
+}
+.hero1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  line-height: 60px;
+  align-items: center;
+}
+.hero1img {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  padding: 5px;
+}
+.hero1 img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 90%;
+  border-radius: 50px;
+  border: 3px solid #F9FFE6;
+}
+.hero2 {
+  display: flex;
+  gap: 60px;
+  margin: 40px;
+  justify-content: center;
+}
+/* -----------  ----------- */
