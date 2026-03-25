@@ -1,11 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Craftsvilla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:wght@400;700&family=Square+Peg&family=Thasadith:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleorder.css">
 </head>
 <body>
-    
+    <nav>
+        <h4 title="Don't cry, craft!">Craftsvilla</h4>
+        <div class="nav-buttons">
+            <a href="index.html" class="nav-btn">
+                <img src="img/returnArrow.png" style="padding-right: 10px; height: 15px; width: auto;">
+                Hovedsiden
+            </a>
+            <a href="gallery.html" class="nav-btn">
+                <img src="img/eyeSymbol.png" style="padding-right: 10px; width: 23px; height: auto;">
+                Se galleri
+            </a>
+        </div>
+    </nav>
+    <section>
+        <div class="title">
+            <p id="title">Bestill</p>
+        </div>
+        <div class="hero">
+            <div class="optionBoxes">
+                <div class="boxFrame">
+                    <div class="box box1">
+                        <p class="bt">Akrylmaling</p>
+                    </div>
+                    <p>kr 300,-</p>
+                </div>
+                <div class="boxFrame">
+                    <div class="box box2">
+                        <p class="bt">Akrylhelling</p>
+                    </div>
+                    <p>kr 500,-</p>
+                </div>
+                <div class="boxFrame">
+                    <div class="box box3">
+                        <p class="bt">Leirekunst</p>
+                    </div>
+                    <p>kr 400,-</p>
+                </div>
+                <div class="boxFrame">
+                    <div class="box box4">
+                        <p class="bt">Treskjæring</p>
+                    </div>
+                    <p>kr 250,-</p>
+                </div>
+                <div class="boxFrame">
+                    <div class="box box5">
+                        <p class="bt">Vannmaling</p>
+                    </div>
+                    <p>kr 275,-</p>
+                </div>
+            </div>
+        </div>
+        <article>
+            <img id="orderIMG" src="img/canvasFlowerHandCropped.png" alt="Bilde av en hånd med blomster som kommer ut fra et lerret">
+            <div class="formContainer">
+                <div class="form">
+                    <form action="">
+                        <legend id="L1">Velg</legend>
+                        <select name="" id="">
+	                        <option value="" disabled selected>--Velg kunstform--</option>
+	                        <option value="">Akrylmaling</option>
+	                        <option value="">Akrylhelling</option>
+	                        <option value="">Leirekunst</option>
+	                        <option value="">Treskjæring</option>
+	                        <option value="">Vannmaling</option>
+                        </select>
+                        <legend id="L2">Kontaktinformasjon</legend>
+                        <input type="email" name="" id="" placeholder="E-post" required>
+                        <input type="tel" pattern="[0-9]*" name="" id="" placeholder="Telefon/mobilnr." inputmode="numeric" required>
+                        <button type="submit">Legg inn bestilling</button>
+                    </form>
+                </div>
+                <!--<button>
+                    Legg inn bestilling
+                </button>-->
+            </div>
+        </article>
+    </section>
+    <footer>
+        <a href="" class="footer-btns">Kontakt oss</a>
+        <a href="" class="footer-btns">Sosiale media</a>
+        <a href="" class="footer-btns">Copyright</a>
+    </footer>
 </body>
 </html>
