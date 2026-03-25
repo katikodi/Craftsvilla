@@ -149,7 +149,7 @@ article {
   align-items: center;
   width: 100vw;
   background: #8BC1E7;
-  background: linear-gradient(0deg, rgba(139, 193, 231, 1) 0%, rgba(211, 229, 216, 1) 90%);
+  background: linear-gradient(0deg, rgba(139, 193, 231, 1) 0%, rgba(211, 229, 216, 1) 50%);
   margin-top: 50px;
 }
 .infocard {
